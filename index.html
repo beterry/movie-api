@@ -1,0 +1,30 @@
+<!-- https://image.tmdb.org/t/p/w500/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for a Movie</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="search-section">
+        <h1>Search for a Movie</h1>
+        <form id="search-form">
+            <input type="text" id="search" name="search" placeholder="Movie title" required>
+            <button>
+                <svg id="search-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path id="Path_1" data-name="Path 1" d="M0,0H24V24H0Z" fill="none"/>
+                    <path id="Path_2" data-name="Path 2" d="M15.5,14h-.79l-.28-.27a6.51,6.51,0,1,0-.7.7l.27.28v.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.494,4.494,0,0,1,9.5,14Z"/>
+                </svg>
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2>Top Results</h2>
+        <ul id="results"></ul>
+    </section>
+    <script src="/app.js"></script>
+</body>
+</html>
