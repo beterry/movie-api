@@ -2,7 +2,7 @@
 
 A simple movie searching interface to practice working with a third party API
 
-[Read the blog post](benterry.dev/blog/movie-api)
+[Read the blog post](https://benterry.dev/blog/movie-api/)
 
 ## About this project
 
