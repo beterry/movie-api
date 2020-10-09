@@ -101,6 +101,14 @@ button:hover{
     padding: 0 1rem;
 }
 
+.foot{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    bottom: 1rem;
+}
+
 @media screen and (max-width: 48rem){
     #results{
         grid-template-columns: 1fr 1fr;
